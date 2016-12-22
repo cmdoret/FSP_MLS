@@ -32,5 +32,6 @@ This folder contains the source code used to generate results in the project.
     + GAT_run_template.sh: Custom template for testing enrichment of many different segment in an annotation. Segments, annotations and workspace can be changed according to the desired test. Parameters are all set to what has been used in the report.
     + enrichment_analysis.R: Script used for processing GAT output. Allows to take all output files in a folder into a table, provided the filenames are consistent.
 * __report_figures.R__: Code used to generate figures in the report
+* __FSP_data.tar.gz__: Data used in the manuscript, excluding contact matrices and normalization vectors.
 
 
