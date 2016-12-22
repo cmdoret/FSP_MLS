@@ -1,8 +1,12 @@
 # Do enhancer-associated lincRNAs contribute to chromosomal organization ?
-
+First-step project, Master in Molecular Life Sciences, Bioinformatics
 Author: Cyril Matthey-Doret
+
 Supervisor: Jennifer Yihong Tan
+
 Director: Ana Claudia Marques
+
+December 2016, University of Lausanne
 
 ## Folder
 
