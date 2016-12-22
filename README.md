@@ -32,6 +32,14 @@ This folder contains the source code used to generate results in the project.
     + GAT_run_template.sh: Custom template for testing enrichment of many different segment in an annotation. Segments, annotations and workspace can be changed according to the desired test. Parameters are all set to what has been used in the report.
     + enrichment_analysis.R: Script used for processing GAT output. Allows to take all output files in a folder into a table, provided the filenames are consistent.
 * __report_figures.R__: Code used to generate figures in the report
-* __FSP_data.tar.gz__: Data used in the manuscript, excluding contact matrices and normalization vectors.
+* __data__: Data used in the manuscript, excluding contact matrices and normalization vectors. See respective README files for more details.
+    + chip_seq: Chip-seq peaks of CTCF, RAD21 and SMC3 used for enrichment tests.
+    + conservation: averaged phastCons scores for protein-coding genes, lincRNAs and ancestral repeats.
+    + DNA_contacts: Processed data from Hi-C matrix. Does not contain the raw/normalized Hi-C matrices.
+    + expression: Median expression levels of lincRNAs and protein-coding genes. In GM12878, HUVEC, NHEK and K562.
+    + GAT: Workspaces, isochore file and output from GAT enrichment tests.
+    + genes: Original lists of genes and list of elincRNAs and other LCL-expressed lincRNAs. Also contains list of predicted regulatory elements from ENCODE.
+    + TADs: lists of TADs, TAD boundaries and loop anchors.
+    + tissue_specificity: List of genes with associated Tau tissue specificity indexes.
 
 
