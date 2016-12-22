@@ -1,8 +1,14 @@
-# Folder
+# Do enhancer-associated lincRNAs contribute to chromosomal organization ?
+
+Author: Cyril Matthey-Doret
+Supervisor: Jennifer Yihong Tan
+Director: Ana Claudia Marques
+
+## Folder
 
 This folder contains the source code used to generate results in the project.
 
-# Contents
+## Contents
 
 * __subset_genes__: These scripts were used conjointly with bedtools calls for subsetting lincRNAs into categories based on promoter/enhancer overlap. Bedtools calls are not included, but subsetted gene lists are available in the data folder.
     + enhanc_assoc.R: Used to produce bedfiles containing promoter regions of genes. Used conjointly with bedtools intersect calls to categorize lincRNAs based on enhancer overlap, or promoter overlap.
