@@ -1,4 +1,4 @@
-# In this script, I condense into a table the results obtained from GAT for further visualisation.
+# In this script, I condense into a table the results obtained from my GAT template script for further visualisation.
 # Cyril Matthey-Doret
 # Tue Nov  1 20:07:39 2016 ------------------------------
 
@@ -6,12 +6,6 @@
 setwd("/home/cyril/Documents/Master/sem_1/First_step/data/")
 setwd("/Users/cmatthe5/Documents/First_step/data/")
 setwd("/home/cyril/Documents/First_step/data/")
-
-
-
-
-
-
 
 condense_gat <- function(path){
   # This function recursively concatenates the results of all gat 
